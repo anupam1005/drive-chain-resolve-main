@@ -1,48 +1,42 @@
-# Welcome to your Lovable project
+# Drive Chain Resolve
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/8bd04d60-51af-4327-97fa-05ad4d18571e
+A modern web application built with a focus on performance and developer experience.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+### Use your preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8bd04d60-51af-4327-97fa-05ad4d18571e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the necessary dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit a file directly in GitHub
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+### Use GitHub Codespaces
 
 - Navigate to the main page of your repository.
 - Click on the "Code" button (green button) near the top right.
@@ -62,12 +56,10 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/8bd04d60-51af-4327-97fa-05ad4d18571e) and click on Share -> Publish.
+You can deploy this project using any modern hosting platform that supports static sites or React applications, such as Vercel, Netlify, or GitHub Pages.
 
-## Can I connect a custom domain to my Lovable project?
+### Deploying to Vercel
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Push your code to a GitHub repository.
+2. Connect your repository to [Vercel](https://vercel.com).
+3. Vercel will automatically detect the Vite configuration and deploy your project.
